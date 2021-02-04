@@ -1,0 +1,122 @@
+/*!
+Theme Name: Dari Nol
+Author: Muhammad Imanudin
+Author URI: http://fb.me/m.imanudin
+Description: CMLABS Assessment
+*/
+
+html, body, img, ul {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 100px;
+    font-family: monospace;
+}
+
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+
+h1 {
+    font-size: 19.9999%;
+}
+
+
+h2 {
+    font-size: 18.8888%;
+}
+
+h3 {
+    font-size: 16.6666%;
+}
+
+li, p {
+    font-weight: normal;
+    font-size: 14.4444%;
+}
+
+#bodyfat {
+    margin: auto;
+    padding: 0 100px;
+}
+
+.section, .title, .description, .column {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.title {
+    
+}
+
+.description {
+    
+}
+
+#menu-topnav li {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    float: left;
+}
+
+#menu-topnav li a {
+    text-decoration: none;
+}
+
+
+#hero-title, #hero-description {
+    text-align: center;
+}
+
+#intro, #capabilities, #clients, #addresses {
+    width: 80%;
+    margin: auto;
+    float: none;
+}
+
+#capabilities-columns .column {
+    width: 33.3333%;
+}
+
+#first-column, #second-column, #third-column {
+    width: 80%;
+    margin: auto;
+}
+
+#addresses .column {
+    width: 50%;
+}
+
+#address-one, #address-two {
+    width: 80%;
+    margin: auto;
+}
+
+#menu-terminologi li {
+    list-style: none;
+    float: left;
+    padding: 0 5px;
+    border-right: dashed 1px;
+}
+
+#menu-terminologi li:last-child {
+    border: none;
+}
+
+#menu-terminologi li a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #capabilities-columns .column, #addresses .column {
+        width: 100%;
+    }
+
+}
